@@ -7,7 +7,12 @@ The model was trained on historical data and applied to unseen listings, with th
 ### Business Relevance (Stakeholders)
 - **Hosts**: Set competitive, data-driven prices and avoid revenue loss from underpricing or booking loss from overpricing.  
 - **Guests**: Compare predicted fair prices against listings to make better booking decisions.  
-- **Platforms**: Enhance pricing systems with more transparent, accurate, and explainable algorithms.  
+- **Platforms**: Enhance pricing systems with more transparent, accurate, and explainable algorithms.
+
+## 📂 Dataset
+The project was built on structured Airbnb listing data provided in two files:
+- **train.csv**: 7,000 rows × 61 columns (includes target variable: `price`)  
+- **test.csv**: 3,000 rows × 60 columns (excludes target variable: `price`)
 
 ---
 
@@ -47,7 +52,7 @@ To prepare it for predictive modeling, this part focused on:
 - **Final Ranking**: **Top 3 out of 106 participants**   
 - **Private Leaderboard Score**: **110.299** (predictions within ~110 AUD of actual prices on average).  
 - **Result Recorded**: 6 June 2025, 1:57 PM (AEST)  
-- **Leaderboard Reference**: [View on Kaggle]([https://www.kaggle.com/competitions](https://www.kaggle.com/competitions/asba-predictive-analytics-competition/leaderboard))  
+- **Leaderboard Reference**: [View on Kaggle](https://www.kaggle.com/competitions](https://www.kaggle.com/competitions/asba-predictive-analytics-competition/leaderboard)  
 
 ![](Final_Results.PNG)
 
