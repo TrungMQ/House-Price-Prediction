@@ -18,8 +18,8 @@ The model was trained on historical data and applied to unseen listings, with th
 - Identified outliers and highlighted correlations between variables and price.  
 - Built early insights into which factors (e.g., location, amenities, host behavior) drive price differences.  
 
----
-
+  ---
+  
 ### 2. Data Processing & Feature Engineering – [`Part 2_Data Processing.ipynb`]  
 
 The dataset contained inconsistent formats, missing values, and categorical variables with many rare categories.  
@@ -32,7 +32,7 @@ To prepare it for predictive modeling, I focused on:
 
 🔑 **Why this matters**: A strong data pipeline ensures the model learns from **reliable, consistent, and business-relevant variables**, which has a greater impact on accuracy than algorithm choice alone.  
 
----
+  ---
 
 ### 3. Predictive Modeling – [`Part 3_Predicting.ipynb`]  
 - Trained four predictive models: **Ridge, Lasso, SVR, and LightGBM**.  
