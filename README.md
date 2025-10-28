@@ -30,10 +30,10 @@ To prepare it for predictive modeling, I focused on:
 - **Feature engineering**: Transforming complex attributes (amenities, neighbourhoods, property types) into interpretable features that capture real business meaning.  
 - **Noise reduction**: Grouping rare categories into "Other" to simplify models and improve generalization.  
 
-🔑 **Why this matters**: A strong data pipeline ensures the model learns from **reliable, consistent, and business-relevant variables**, which has a greater impact on accuracy than algorithm choice alone.  
+🔑 **Why this matters**: A strong data pipeline ensures the model learns from **reliable, consistent, and business-relevant variables**, which has a greater impact on accuracy than algorithm choice alone.
 
   ---
-
+  
 ### 3. Predictive Modeling – [`Part 3_Predicting.ipynb`]  
 - Trained four predictive models: **Ridge, Lasso, SVR, and LightGBM**.  
 - Built a **stacked ensemble** combining these models to reduce error and capture complementary strengths.  
