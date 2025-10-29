@@ -19,7 +19,7 @@ The project was built on structured Airbnb listing data provided in two files:
 ## 🔎 Project Workflow
 
 ### 1. Exploratory Data Analysis (EDA)
-📂 `Part 1_EDA.ipynb`
+`Part 1_EDA.ipynb`
 
 - Explored property, host, and location features to understand data distribution
 - Identified outliers and highlighted correlations between variables and price
@@ -27,7 +27,7 @@ The project was built on structured Airbnb listing data provided in two files:
 
   
 ### 2. Data Processing & Feature Engineering 
-📂 `Part 2_Data Processing.ipynb`
+`Part 2_Data Processing.ipynb`
 
 The dataset contained inconsistent formats, missing values, and categorical variables with many rare categories
 To prepare it for predictive modeling, this part focused on:
@@ -36,11 +36,11 @@ To prepare it for predictive modeling, this part focused on:
 - **Feature engineering**: Transforming complex attributes (amenities, neighbourhoods, property types) into interpretable features that capture real business meaning
 - **Noise reduction**: Grouping rare categories into "Other" to simplify models and improve generalization
 
-🔑 **Why this matters**: A strong data pipeline ensures the model learns from **reliable, consistent, and business-relevant variables**, which has a greater impact on accuracy than algorithm choice alone.
+**Why this matters**: A strong data pipeline ensures the model learns from **reliable, consistent, and business-relevant variables**, which has a greater impact on accuracy than algorithm choice alone.
 
 
 ### 3. Predictive Modeling
-📂 `Part 3_Predicting.ipynb`
+`Part 3_Predicting.ipynb`
 - Trained four predictive models: **Ridge, Lasso, SVR, and LightGBM**
 - Built a **stacked ensemble** combining these models to reduce error and capture complementary strengths
 - Used **Optuna** for hyperparameter tuning, balancing accuracy with generalization
