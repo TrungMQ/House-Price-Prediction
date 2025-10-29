@@ -49,7 +49,7 @@ To prepare it for predictive modeling, this part focused on:
 
 ## 🏆 Results
 
-- **Final Ranking**: **Top 3** out of 106 competitors
+- **Final Ranking**: Top 3 out of 106 competitors
 - **Private Leaderboard Score**: **110.299** (predictions within ~110 AUD of actual prices on average)
 - **Result Recorded**: 6 June 2025, 1:57 PM (AEST)
 - **Leaderboard Reference**: [View on Kaggle](https://www.kaggle.com/competitions/asba-predictive-analytics-competition/leaderboard)
